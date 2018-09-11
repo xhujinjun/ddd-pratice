@@ -1,6 +1,6 @@
 package com.github.xiejj.settlement.domain.service;
 
-import com.github.xiejj.settlement.domain.domain.SettlementBill;
+import com.github.xiejj.settlement.domain.model.SettlementBill;
 import com.github.xiejj.settlement.interfaces.file.WorkbookReader;
 import com.github.xiejj.settlement.interfaces.file.WorkbookWriter;
 import com.github.xiejj.settlement.repositories.SettlementBillRepository;

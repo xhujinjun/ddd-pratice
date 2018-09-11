@@ -1,7 +1,7 @@
 package com.github.xiejj.settlement.domain.service;
 
-import com.github.xiejj.settlement.domain.domain.SettlementBill;
-import com.github.xiejj.settlement.domain.domain.TemplateVariable;
+import com.github.xiejj.settlement.domain.model.SettlementBill;
+import com.github.xiejj.settlement.domain.model.TemplateVariable;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -20,6 +20,7 @@ public class SettlementBillTemplate {
     private String replacePattern;
 
     public SettlementBillTemplate(HSSFWorkbook workbook) {
+        this.workbook = workbook;
     }
     public SettlementBillTemplate(HSSFWorkbook workbook, int sheetIndex, String replacePattern) {
         this.workbook = workbook;

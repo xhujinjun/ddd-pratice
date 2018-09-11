@@ -1,6 +1,6 @@
 package com.github.xiejj.settlement.repositories;
 
-import com.github.xiejj.settlement.domain.domain.SettlementBill;
+import com.github.xiejj.settlement.domain.model.SettlementBill;
 
 /**
  * @author xiejinjun

@@ -1,6 +1,6 @@
 package com.github.xiejj.settlement.gateways.persistence;
 
-import com.github.xiejj.settlement.domain.domain.SettlementBill;
+import com.github.xiejj.settlement.domain.model.SettlementBill;
 import com.github.xiejj.settlement.repositories.SettlementBillRepository;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;

@@ -16,6 +16,7 @@
         <module>order-context</module>
         <module>product-context</module>
         <module>settlement-context</module>
+        <module>reservation-context</module>
     </modules>
 
     <dependencies>
