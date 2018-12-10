@@ -14,7 +14,6 @@ public class ReservationInfo {
 
     private String shopName;
 
-    private
     private String commercailAddr;
 
     private String commercailPhone;

@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class BookingSmsTemplateExporter {
-    private SmsTemplateClient reader;
-
-    private SmsSendClient smsSendClient;
+    // private SmsTemplateClient reader;
+    //
+    // private SmsSendClient smsSendClient;
 
     public void export(String templateName, Long bookingId){
 
