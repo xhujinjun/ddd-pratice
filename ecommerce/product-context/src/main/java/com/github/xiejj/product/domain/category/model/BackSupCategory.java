@@ -15,10 +15,6 @@ public class BackSupCategory extends BackCategory {
      * 子类目ID
      */
     private List<Long> subId;
-    @Override
-    public void modify() {
-
-    }
 
     @Override
     public void enable() {
@@ -32,5 +28,10 @@ public class BackSupCategory extends BackCategory {
         }
         this.enabledFlag = false;
         return true;
+    }
+
+    @Override
+    public <T extends BackCategory> void modify(final T backCategory) {
+
     }
 }

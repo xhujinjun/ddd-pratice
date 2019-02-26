@@ -11,6 +11,7 @@
         <module>ecommerce</module>
         <module>ddd-dependencies</module>
         <module>ddd-parent</module>
+        <module>ddd-common</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
  */
 @ApiModel(value="新增商品类目请求")
 @Data
-public class CreatCategoryCommand {
+public class CreatCategoryViewModel {
 
     @ApiModelProperty(value = "父类型ID",required = false)
     private Long parentId;

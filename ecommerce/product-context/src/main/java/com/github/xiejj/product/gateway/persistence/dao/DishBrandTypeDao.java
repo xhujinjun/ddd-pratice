@@ -1,5 +1,6 @@
 package com.github.xiejj.product.gateway.persistence.dao;
 
+import com.github.xiejj.product.domain.category.model.BackSubCategory;
 import com.github.xiejj.product.gateway.persistence.model.DishBrandType;
 
 import java.util.List;
@@ -18,6 +19,18 @@ public class DishBrandTypeDao {
     }
 
     public void disable(final Long brandId, final Long id) {
+
+    }
+
+    public Integer getBackSupCategorySort() {
+        return 0;
+    }
+
+    public Integer getBackSubCategorySort() {
+        return null;
+    }
+
+    public void save(final BackSubCategory backSubCategory) {
 
     }
 }

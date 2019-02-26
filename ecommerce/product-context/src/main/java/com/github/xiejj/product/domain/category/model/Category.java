@@ -1,7 +1,6 @@
 package com.github.xiejj.product.domain.category.model;
 
 import com.github.xiejj.product.domain.Aggregation;
-import com.github.xiejj.product.domain.EnableFlagEnum;
 import lombok.Data;
 
 /**
@@ -44,11 +43,6 @@ public abstract class Category implements Aggregation {
 
     public Category(){
     }
-
-    /**
-     * 修改商品类目
-     */
-    public abstract void modify();
 
     /**
      * 启用商品类目

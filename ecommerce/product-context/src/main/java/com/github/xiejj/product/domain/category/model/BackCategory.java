@@ -11,4 +11,9 @@ import lombok.Data;
 @Data
 public abstract class BackCategory extends Category{
     protected Long brandId;
+
+    /**
+     * 修改类目
+     */
+    public abstract <T extends BackCategory> void modify(T backCategory);
 }

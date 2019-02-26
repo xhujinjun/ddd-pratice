@@ -11,4 +11,6 @@ public interface BackSupCategoryRepository extends BaseRepository<BackSupCategor
     void disable(BackSupCategory backCategory);
 
     void enable(BackSupCategory backCategory);
+
+    void modify(BackSupCategory backCategory);
 }
